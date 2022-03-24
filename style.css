@@ -4,7 +4,7 @@
 }
 
 body {
-    position: relative;
+    position: absolute;
     font-family: 'Comic Sans', 'Trebuchet MS', sans-serif;
     background-color: gray;
 }
@@ -15,7 +15,10 @@ h2 {
 }
 
 main {
-    padding: 60px 0;
+    height:100%;
+    width: 100%;
+    margin:auto;
+    padding:60px 0 0 400px;
 }
 
 li {
@@ -36,7 +39,7 @@ header{
     border-bottom: 10px solid orange;
 }
 footer{
-    position: absolute;
+    position: fixed;
     margin-top: 0;
     bottom: 0;
     border-bottom: 10px solid orange;
